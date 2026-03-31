@@ -1,0 +1,30 @@
+/* Контейнер для колонок */
+.container {
+    display: flex;       /* Колонки в ряд */
+    gap: 15px;           /* Відстань між колонками */
+    flex-wrap: wrap;     /* Перенос на новий рядок при маленькому екрані */
+}
+
+/* Кожна колонка */
+.column {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    flex: 1;
+    min-width: 200px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    color: #565656;
+}
+
+p {
+    color: #333;
+    line-height: 1.5;
+    font-size: 14pt;
+}
