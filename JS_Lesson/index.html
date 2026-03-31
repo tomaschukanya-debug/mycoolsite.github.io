@@ -1,0 +1,15 @@
+// Завдання 2: слайдшоу фото
+
+let photoNumber = 1;  // поточне фото
+let totalPhotos = 5;  // всього фото
+
+// Збільшуємо номер фото
+photoNumber = photoNumber + 1;
+
+// Якщо номер більше загальної кількості → повертаємо 1
+if (photoNumber > totalPhotos) {
+    photoNumber = 1;
+}
+
+// Виводимо результат у консоль
+console.log("Номер поточного фото:", photoNumber);
